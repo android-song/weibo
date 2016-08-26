@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/search"
+        android:title="chaix"
+        app:showAsAction="ifRoom"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@mipmap/abc_ic_search_api_mtrl_alpha"
+        ></item>
+
+    </menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="witch">#44f7fcf7</color>
+    <color name="graeen">#4423c623</color>
+    <color name="balck">#440b0b0b</color>
+    <color name="colorccent">#44b1d123</color>
+
+</resources>

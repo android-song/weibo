@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:background="@android:color/background_light"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar_content"></include>
+<LinearLayout
+    android:background="#3D51B4"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="#fffefe"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#121111"
+        android:textSize="20dp"
+      android:layout_gravity="center_vertical"
+        android:text="github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+     <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+  <TextView
+      android:id="@+id/ssclear"
+      android:padding="10dp"
+      android:textSize="15dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" /></ScrollView>
+    <ListView
+        android:id="@+id/urlcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

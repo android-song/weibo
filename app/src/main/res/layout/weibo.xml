@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/weibo_text"
+    android:textSize="15dp"
+    android:textColor="#484343"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/weibo_text1"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textColor="#484343"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />   </ScrollView>
+</LinearLayout>

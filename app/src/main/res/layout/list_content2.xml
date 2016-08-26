@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+    <ImageView
+        android:background="#cabdbd"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:background="#cabdbd"
+            android:backgroundTint="#ffffff"
+            android:src="@mipmap/ic_mark_exclusive"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/content_text2"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF000000"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="yojfjfjkcsjfkldsjgkljhsdfkgsdfa"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" /></LinearLayout>
+        <TextView
+            android:id="@+id/content_text1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="yojfjfjkcsjfkldsgjsakllllllllllld5411111111111111111111111111111111111111111111111111111111111111111111111444444444444444hfddddddddddddjgkljhsdfkgsdfa"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/time_1"
+            android:layout_marginLeft="15dp"
+            android:text="gitblog"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/pinglun"
+            android:layout_marginLeft="90dp"
+            android:text="点赞"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="1小时前"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/img_but"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_toggle_star"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<android.support.v4.widget.DrawerLayout
+
+    android:layout_width="match_parent"
+    android:id="@+id/drawerlayout"
+    android:layout_height="match_parent"
+    >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@android:color/background_light"
+            android:layout_height="match_parent"
+            android:id="@+id/frament"
+            >
+
+<fragment
+    android:layout_width="match_parent"
+    android:name="a.toolbardemo.FragmentContent"
+    android:layout_height="match_parent"
+    android:id="@+id/cont"></fragment>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/frament_slid"
+        android:layout_gravity="start"
+        android:layout_height="match_parent">
+    <fragment
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:name="a.toolbardemo.FragmentCont"
+        android:layout_gravity="start"
+        android:id="@+id/sliding"
+        >
+    </fragment></FrameLayout>
+</android.support.v4.widget.DrawerLayout>
+</LinearLayout>
